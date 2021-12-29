@@ -2,7 +2,6 @@ library(shiny)
 library(dplyr)
 library(tidyr)
 library(purrr)
-library(magrittr)
 library(ggplot2)
 
 PCAMaker <- function() {
