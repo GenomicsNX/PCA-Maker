@@ -4,8 +4,8 @@ Version: 1.0
 Authors@R: 
     person(given = "Juan Pablo",
            family = "Carreón-Hidalgo",
-           role = "aut"
-           email = "jpch_26@outlook.com",)
+           role = "aut",
+           email = "jpch_26@outlook.com")
 Description: A shiy app to make and deploy principal component analysis.
 License: GPL (>= 3)
 Encoding: UTF-8
