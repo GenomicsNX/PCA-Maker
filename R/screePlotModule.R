@@ -10,7 +10,7 @@ screePlotUI <- function(id) {
         radioButtons(NS(id, "format"), NULL, c("png", "bmp", "pdf"), inline = TRUE),
         downloadButton(NS(id, "download_image"), "Download plot"),
         textInput(NS(id, "file_name"), "File name:", value = "VariationData"),
-        downloadButton(NS(id, "download_data"), "Download scores as a CSV file")
+        downloadButton(NS(id, "download_data"), "Download variation data as a CSV file")
       ),
       mainPanel(
         plotOutput(NS(id, "scree_plot"), height = 550)
