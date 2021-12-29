@@ -25,7 +25,7 @@ bi_plot <- function(pca_scores, pca_loadings, exp_names, x_axis, y_axis,
     geom_text(
       data = pca_lds_trans,
       aes(v1, v2, label = rownames(pca_loadings)),
-      vjust = -0.7, size = 3
+      vjust = -0.8, size = 2
     ) +
     geom_segment(
       data = pca_lds_trans,

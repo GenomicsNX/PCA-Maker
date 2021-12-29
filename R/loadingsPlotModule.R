@@ -46,7 +46,7 @@ loadingsPlotServer <- function(id, pca_analysis) {
         geom_point(color = "blue", size = 2) +
         geom_vline(xintercept = 0, alpha = 0.3) +
         geom_hline(yintercept = 0, alpha = 0.3) +
-        geom_text(aes(label = rownames(pca_loadings())), vjust = -0.7, size = 3) +
+        geom_text(aes(label = rownames(pca_loadings())), vjust = -0.8, size = 2) +
         xlab(x_lab()) +
         ylab(y_lab()) +
         theme_minimal()
