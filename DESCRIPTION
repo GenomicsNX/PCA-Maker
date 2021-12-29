@@ -1,10 +1,10 @@
 Package: PCAMaker
 Title: Pincipal component analysis shiny app
-Version: 1.0
+Version: 1.0.0
 Authors@R: 
     person(given = "Juan Pablo",
            family = "Carreón-Hidalgo",
-           role = "aut",
+           role = c("aut", "cre"),
            email = "jpch_26@outlook.com")
 Description: A shiy app to make and deploy principal component analysis.
 License: GPL (>= 3)
@@ -20,3 +20,5 @@ Imports:
     readr,
     shiny,
     tidyr
+Depends: 
+    R (>= 2.10)
