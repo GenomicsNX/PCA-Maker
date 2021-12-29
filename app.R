@@ -1,2 +1,3 @@
-pkgload::load_all(".")
+library(pkgload)
+load_all(".")
 PCAMaker()
