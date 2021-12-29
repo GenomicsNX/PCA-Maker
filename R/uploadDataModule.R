@@ -22,7 +22,7 @@ uploadDataServer <- function(id) {
         name = input$data_file$name, 
         path = input$data_file$datapath, 
         file = input$data_file,
-        default_file_path = "data/Wine_data.csv"
+        default_data = wine_data
       )
     )
     
@@ -32,7 +32,7 @@ uploadDataServer <- function(id) {
         name = input$exp_file$name,
         path = input$exp_file$datapath,
         file = input$exp_file,
-        default_file_path = "data/Wine_region.csv"
+        default_data = wine_region
       ) 
     )
     

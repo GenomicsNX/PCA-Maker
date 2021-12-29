@@ -1,11 +1,11 @@
 
 # Upload data function ----------------------------------------------------
 
-upload_data <- function(name, path, file = NULL, default_file_path = NULL) {
+upload_data <- function(name, path, file = NULL, default_data = NULL) {
   # Upload data
   if (is.null(file)) {
     
-    data_set <- read.csv(default_file_path)
+    data_set <- default_data
     
   } else {
     
