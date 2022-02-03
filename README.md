@@ -33,7 +33,7 @@ To do the above, you can also run the file app.R within PCAMaker main directory.
 
 You can check out a brief tutorial by clicking on:  
 
-[Work in progress...]
+<a href="https://r-inthelab.net/2021/12/29/pca-maker-shiny-app/" target="_blank">PCA Maker tutorial</a>
 
 Thank you so much for your time.  
 
@@ -42,4 +42,4 @@ Juan Pablo Carreón Hidalgo
 <jpch_26@outlook.com>  
 <https://twitter.com/JuanPa2601>
 
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
+PCA Maker is under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
